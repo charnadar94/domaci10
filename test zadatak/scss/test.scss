@@ -1,0 +1,14 @@
+@import "mixin";
+@import "var";
+
+html,
+body {
+    width: 100% auto;
+    height: 100%;
+    margin: 0;
+    font-family: $fontext;
+}
+
+header {height: 5%;
+background-color: $darkblue;
+color: white;}
