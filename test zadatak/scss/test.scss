@@ -9,6 +9,45 @@ body {
     font-family: $fontext;
 }
 
-header {height: 5%;
-background-color: $darkblue;
-color: white;}
+header {
+    height: 5%;
+    background-color: $darkblue;
+    color: $white;
+    display: flex;
+    justify-content: space-between;
+
+    .airplane {
+        display: flex;
+        flex-direction: row;
+
+        img {
+            height: 65%;
+            padding-left: 5%;
+            padding-top: 4%;
+        }
+
+        h3 {
+            font-weight: bolder;
+            padding-left: 4%;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 40%;
+        align-items: flex-end;
+        padding-bottom: 0.5%;
+    }
+
+    div {
+        width: 10%;
+        button {
+            background-color: $white;
+            color: black;
+            padding: 2%;
+            margin-top: 6%;
+            text-align: center;
+        }
+    }
+}

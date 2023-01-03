@@ -11,6 +11,38 @@ header {
   height: 5%;
   background-color: #0e1538;
   color: white;
+  display: flex;
+  justify-content: space-between;
+}
+header .airplane {
+  display: flex;
+  flex-direction: row;
+}
+header .airplane img {
+  height: 65%;
+  padding-left: 5%;
+  padding-top: 4%;
+}
+header .airplane h3 {
+  font-weight: bolder;
+  padding-left: 4%;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  align-items: flex-end;
+  padding-bottom: 0.5%;
+}
+header div {
+  width: 10%;
+}
+header div button {
+  background-color: white;
+  color: black;
+  padding: 2%;
+  margin-top: 6%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=test.css.map */
